@@ -1,0 +1,126 @@
+
+body{
+    background-color: rgb(31, 0, 59);
+}
+
+/*Navigation*/
+.Inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+button{
+    color: rgb(249, 223, 255);
+    background-color: rgb(224, 66, 255);
+    width: 185px;
+    height: 78px;
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+
+.Nav{
+    width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0, 0.9);
+    position:fixed;
+    z-index: 100;
+    top:0;  
+    left:0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ulN{
+    position: relative;
+    display:flex;
+    width: 100%;
+    top: 25%;
+    text-align: center;
+    margin-left: auto;
+    color: white;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 35px;
+    
+}
+
+.ulN li{
+padding: 20px;
+}
+
+/*HEROLARGEIMAGE*/
+.HeroLarge{
+    position:static;
+    text-align: center;
+    color: white;
+    top: 0;
+    position: static;
+}
+
+.CenterName{
+    color: white;
+    font-size: 383.3px;
+    font-family: sans-serif;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*HEROIMAGE*/
+
+.HeroImg{
+height: 600px;
+padding: 25px;
+}
+
+.Content{
+    width: 500px;
+    margin: 0 auto;
+    color: white;
+    font-family: sans-serif;
+    display:flex;
+    margin-top: 2%;
+}
+
+.Content p1{
+    padding: 10px;
+}
+
+/*FOOTER*/
+
+.footer{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5%;
+    background-color: rgb(247, 237, 255);
+    width: 100%;
+}
+
+.ulF{
+    width: 50%;
+    margin-left: auto;
+    color: rgb(25, 0, 58);
+    list-style: none;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 20px;
+}
